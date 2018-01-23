@@ -19,6 +19,7 @@ using namespace std;
 // Drawing (display) routine.
 void drawScene(void)
 {
+    
    // Clear screen to background color.
    glClear(GL_COLOR_BUFFER_BIT);
 
@@ -34,7 +35,7 @@ void drawScene(void)
    glEnd();
 
    // Flush created objects to the screen, i.e., force rendering.
-   glFlush(); 
+   glFlush();
 }
 
 // Initialization routine.
@@ -47,6 +48,7 @@ void setup(void)
 // OpenGL window reshape routine.
 void resize(int w, int h)
 {
+    cout << "In resize" << endl;
    // Set viewport size to be entire OpenGL window.
    glViewport(0, 0, (GLsizei)w, (GLsizei)h);
   
@@ -58,7 +60,7 @@ void resize(int w, int h)
 
    // Specify the orthographic (or perpendicular) projection, 
    // i.e., define the viewing box.
-   glOrtho(0.0, 100.0, 0.0, 100.0, -1.0, 1.0);
+   glOrtho(0.0, 100.0, 0.0, 100.0, 1.0, -1.0);
 
    // Set matrix mode to modelview.
    glMatrixMode(GL_MODELVIEW);
@@ -70,6 +72,7 @@ void resize(int w, int h)
 // Keyboard input processing routine.
 void keyInput(unsigned char key, int x, int y)
 {
+    cout << "In keyInput" << endl;
    switch(key) 
    {
 	  // Press escape to exit.
@@ -84,7 +87,7 @@ void keyInput(unsigned char key, int x, int y)
 // Main routine: defines window properties, creates window,
 // registers callback routines and begins processing.
 int main(int argc, char **argv) 
-{  
+{
    // Initialize GLUT.
    glutInit(&argc, argv);
  
