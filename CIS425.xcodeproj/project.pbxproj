@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		90053B14200FE9D80019E830 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90053B13200FE9D80019E830 /* GLUT.framework */; };
 		90053B16200FE9E70019E830 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90053B15200FE9E70019E830 /* OpenGL.framework */; };
-		90AE2C6920167EAA00134077 /* squareV2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90AE2C6820167EAA00134077 /* squareV2.cpp */; };
-		90F767F7201915C600951F9C /* person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F767F6201915C600951F9C /* person.cpp */; };
-		90F767FA201917DE00951F9C /* Megi_Assignment1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F767F8201917DE00951F9C /* Megi_Assignment1.cpp */; };
+		908046EE2028BD4D001DFC22 /* Megi_Assignment1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90F767F8201917DE00951F9C /* Megi_Assignment1.cpp */; };
+		90C07B30202B89310082557B /* MJBBasicTransformations.cp in Sources */ = {isa = PBXBuildFile; fileRef = 90C07B2F202B89310082557B /* MJBBasicTransformations.cp */; };
+		90C07B32202B89960082557B /* Megi_Assignment2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C07B31202B89960082557B /* Megi_Assignment2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,9 +31,19 @@
 		90053B13200FE9D80019E830 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		90053B15200FE9E70019E830 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		90053B1B200FF1EC0019E830 /* square copy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "square copy.cpp"; sourceTree = "<group>"; };
+		902E1E93202519C500F7F816 /* cylinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cylinder.cpp; path = ../../../Downloads/Code/cylinder.cpp; sourceTree = "<group>"; };
+		902E1E9620252F7400F7F816 /* squareAnnulus4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = squareAnnulus4.cpp; path = ../../../Downloads/Code/squareAnnulus4.cpp; sourceTree = "<group>"; };
+		902E1E99202535AA00F7F816 /* squareAnnulus3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = squareAnnulus3.cpp; path = ../../../Downloads/Code/squareAnnulus3.cpp; sourceTree = "<group>"; };
+		9041EA8C20202531007DDAED /* floweringPlant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = floweringPlant.cpp; path = ../../../Downloads/Code/floweringPlant.cpp; sourceTree = "<group>"; };
+		90628544201FB454007D214E /* helix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = helix.cpp; path = ../../../Downloads/Code/helix.cpp; sourceTree = "<group>"; };
+		90628547201FB4F9007D214E /* circularAnnulusesMod.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = circularAnnulusesMod.cp; path = ../../../Downloads/Code/circularAnnulusesMod.cp; sourceTree = "<group>"; };
 		90AE2C6820167EAA00134077 /* squareV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = squareV2.cpp; sourceTree = "<group>"; };
+		90C07B2F202B89310082557B /* MJBBasicTransformations.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MJBBasicTransformations.cp; path = ../../../Downloads/Code/MJBBasicTransformations.cp; sourceTree = "<group>"; };
+		90C07B31202B89960082557B /* Megi_Assignment2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Megi_Assignment2.cpp; sourceTree = "<group>"; };
 		90F767F6201915C600951F9C /* person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
 		90F767F8201917DE00951F9C /* Megi_Assignment1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Megi_Assignment1.cpp; sourceTree = "<group>"; };
+		90FF466A2027E5DF007ADF30 /* helixmod.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = helixmod.cp; path = ../../../Downloads/Code/helixmod.cp; sourceTree = "<group>"; };
+		90FF466D2027FA3C007ADF30 /* circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = circle.cpp; path = ../../../Downloads/Code/circle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +79,20 @@
 		90053B0A200FE64D0019E830 /* CIS425 */ = {
 			isa = PBXGroup;
 			children = (
+				90C07B2F202B89310082557B /* MJBBasicTransformations.cp */,
+				90FF466D2027FA3C007ADF30 /* circle.cpp */,
+				90FF466A2027E5DF007ADF30 /* helixmod.cp */,
+				902E1E99202535AA00F7F816 /* squareAnnulus3.cpp */,
+				902E1E9620252F7400F7F816 /* squareAnnulus4.cpp */,
+				902E1E93202519C500F7F816 /* cylinder.cpp */,
+				90628547201FB4F9007D214E /* circularAnnulusesMod.cp */,
+				90628544201FB454007D214E /* helix.cpp */,
 				90F767F6201915C600951F9C /* person.cpp */,
 				90AE2C6820167EAA00134077 /* squareV2.cpp */,
 				90053B1B200FF1EC0019E830 /* square copy.cpp */,
 				90F767F8201917DE00951F9C /* Megi_Assignment1.cpp */,
+				90C07B31202B89960082557B /* Megi_Assignment2.cpp */,
+				9041EA8C20202531007DDAED /* floweringPlant.cpp */,
 			);
 			path = CIS425;
 			sourceTree = "<group>";
@@ -143,9 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F767FA201917DE00951F9C /* Megi_Assignment1.cpp in Sources */,
-				90AE2C6920167EAA00134077 /* squareV2.cpp in Sources */,
-				90F767F7201915C600951F9C /* person.cpp in Sources */,
+				90C07B32202B89960082557B /* Megi_Assignment2.cpp in Sources */,
+				90C07B30202B89310082557B /* MJBBasicTransformations.cp in Sources */,
+				908046EE2028BD4D001DFC22 /* Megi_Assignment1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
