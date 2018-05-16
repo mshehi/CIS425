@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		90053B14200FE9D80019E830 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90053B13200FE9D80019E830 /* GLUT.framework */; };
 		90053B16200FE9E70019E830 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90053B15200FE9E70019E830 /* OpenGL.framework */; };
-		90280B6F20745E21000F34E2 /* Megi_Assignment4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90FDBCE52060A71B00CFDB44 /* Megi_Assignment4.cpp */; };
+		90986416209B0567006996AE /* Skateboarding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9071238820916E0A0033F194 /* Skateboarding.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,11 +28,9 @@
 		90053B08200FE64D0019E830 /* CIS425 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CIS425; sourceTree = BUILT_PRODUCTS_DIR; };
 		90053B13200FE9D80019E830 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		90053B15200FE9E70019E830 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		90053B1B200FF1EC0019E830 /* square copy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "square copy.cpp"; sourceTree = "<group>"; };
 		900C5286204494E700E3B15F /* Megi_Assignment3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Megi_Assignment3.cpp; sourceTree = "<group>"; };
 		900C52882044AB2300E3B15F /* clown3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clown3.cpp; path = ../../../Downloads/Code/clown3.cpp; sourceTree = "<group>"; };
 		90280B6B20745C1A000F34E2 /* ballAndTorusPicking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ballAndTorusPicking.cpp; path = ../../../Downloads/Code/ballAndTorusPicking.cpp; sourceTree = "<group>"; };
-		90280B6D20745C24000F34E2 /* ballAndTorusPerspectivelyShadowed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ballAndTorusPerspectivelyShadowed.cpp; path = ../../../Downloads/Code/ballAndTorusPerspectivelyShadowed.cpp; sourceTree = "<group>"; };
 		902C63F62038BB1F00298193 /* moveSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = moveSphere.cpp; path = ../../../Downloads/Code/moveSphere.cpp; sourceTree = "<group>"; };
 		902C63F82038BB5200298193 /* mouseMotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mouseMotion.cpp; path = ../../../Downloads/Code/mouseMotion.cpp; sourceTree = "<group>"; };
 		902C63FD2038D46500298193 /* glutObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = glutObjects.cpp; path = ../../../Downloads/Code/glutObjects.cpp; sourceTree = "<group>"; };
@@ -40,6 +38,8 @@
 		902E1E93202519C500F7F816 /* cylinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cylinder.cpp; path = ../../../Downloads/Code/cylinder.cpp; sourceTree = "<group>"; };
 		902E1E9620252F7400F7F816 /* squareAnnulus4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = squareAnnulus4.cpp; path = ../../../Downloads/Code/squareAnnulus4.cpp; sourceTree = "<group>"; };
 		902E1E99202535AA00F7F816 /* squareAnnulus3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = squareAnnulus3.cpp; path = ../../../Downloads/Code/squareAnnulus3.cpp; sourceTree = "<group>"; };
+		90301FD820953421001FF94B /* fractals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fractals.cpp; path = ../../../Downloads/Code/fractals.cpp; sourceTree = "<group>"; };
+		903D9540207E9ED7002DDBC7 /* Skateboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Skateboard.cpp; sourceTree = "<group>"; };
 		90416756203B51A90054E6E1 /* menus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menus.cpp; path = ../../../Downloads/Code/menus.cpp; sourceTree = "<group>"; };
 		9041EA8C20202531007DDAED /* floweringPlant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = floweringPlant.cpp; path = ../../../Downloads/Code/floweringPlant.cpp; sourceTree = "<group>"; };
 		9043D0C7206C15B600D17BBA /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = ../../../Downloads/Code/Textures; sourceTree = "<group>"; };
@@ -50,14 +50,28 @@
 		905960A4206DD8BF0061A0B4 /* spotlight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spotlight.cpp; path = ../../../Downloads/Code/spotlight.cpp; sourceTree = "<group>"; };
 		90628544201FB454007D214E /* helix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = helix.cpp; path = ../../../Downloads/Code/helix.cpp; sourceTree = "<group>"; };
 		90628547201FB4F9007D214E /* circularAnnulusesMod.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = circularAnnulusesMod.cp; path = ../../../Downloads/Code/circularAnnulusesMod.cp; sourceTree = "<group>"; };
+		906E286D20883A7B00B00F60 /* texturedTorus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = texturedTorus.cpp; path = ../../../Downloads/Code/texturedTorus.cpp; sourceTree = "<group>"; };
+		9071238820916E0A0033F194 /* Skateboarding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Skateboarding.cpp; sourceTree = "<group>"; };
+		9071238A20916E620033F194 /* fieldAndSkyonSphere.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fieldAndSkyonSphere.cp; sourceTree = "<group>"; };
 		9075C3352032219800F631FF /* canvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = canvas.cpp; path = ../../../Downloads/Code/canvas.cpp; sourceTree = "<group>"; };
 		9075C337203222A100F631FF /* windows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = windows.cpp; path = ../../../Downloads/Code/windows.cpp; sourceTree = "<group>"; };
-		90AE2C6820167EAA00134077 /* squareV2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = squareV2.cpp; sourceTree = "<group>"; };
+		90986414209B0450006996AE /* sphereInGlassBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sphereInGlassBox.cpp; path = ../../../Downloads/Code/sphereInGlassBox.cpp; sourceTree = "<group>"; };
+		90AD9294209781FC00FB29C6 /* Space.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Space.cpp; sourceTree = "<group>"; };
+		90AD929B20979C3100FB29C6 /* Water.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Water.cpp; sourceTree = "<group>"; };
+		90AD929E20992FCC00FB29C6 /* start.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = start.cpp; sourceTree = "<group>"; };
+		90AD92A02099430000FB29C6 /* fieldAndSkyTexturesBlended.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fieldAndSkyTexturesBlended.cpp; path = ../../../Downloads/Code/fieldAndSkyTexturesBlended.cpp; sourceTree = "<group>"; };
+		90AD92A22099430800FB29C6 /* fieldAndSkyFogged.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fieldAndSkyFogged.cpp; path = ../../../Downloads/Code/fieldAndSkyFogged.cpp; sourceTree = "<group>"; };
+		90AD92A6209945F200FB29C6 /* ballAndTorusPerspectivelyShadowed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ballAndTorusPerspectivelyShadowed.cpp; path = ../../../Downloads/Code/ballAndTorusPerspectivelyShadowed.cpp; sourceTree = "<group>"; };
+		90AD92A920994B6A00FB29C6 /* ballAndTorusPerspectivelyShadowed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ballAndTorusPerspectivelyShadowed.cpp; path = ../../../.Trash/ballAndTorusPerspectivelyShadowed.cpp; sourceTree = "<group>"; };
+		90AD92AF209964E300FB29C6 /* BoxAndCubesPickingAndDraggingFromTop.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BoxAndCubesPickingAndDraggingFromTop.cp; path = ../../../Downloads/Code/BoxAndCubesPickingAndDraggingFromTop.cp; sourceTree = "<group>"; };
+		90B3675A208524C800F092E0 /* bezierCurves.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bezierCurves.cpp; path = ../../../Downloads/Code/bezierCurves.cpp; sourceTree = "<group>"; };
+		90B3675C2085288500F092E0 /* bezierCurveWithEvalCoord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bezierCurveWithEvalCoord.cpp; path = ../../../Downloads/Code/bezierCurveWithEvalCoord.cpp; sourceTree = "<group>"; };
+		90B3675E20852B2B00F092E0 /* bezierSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bezierSurface.cpp; path = ../../../Downloads/Code/bezierSurface.cpp; sourceTree = "<group>"; };
 		90BEEE872037C0E300E2486C /* fonts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fonts.cpp; path = ../../../Downloads/Code/fonts.cpp; sourceTree = "<group>"; };
 		90C07B2F202B89310082557B /* MJBBasicTransformations.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MJBBasicTransformations.cp; path = ../../../Downloads/Code/MJBBasicTransformations.cp; sourceTree = "<group>"; };
 		90C07B31202B89960082557B /* Megi_Assignment2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Megi_Assignment2.cpp; sourceTree = "<group>"; };
 		90CB477E206048AD00644D1A /* walkingAroundForClass.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = walkingAroundForClass.cp; path = ../../../Downloads/Code/walkingAroundForClass.cp; sourceTree = "<group>"; };
-		90F767F6201915C600951F9C /* person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
+		90EA024D209AA6C4007BE6DD /* spaceTravel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spaceTravel.cpp; path = ../../../Downloads/Code/spaceTravel.cpp; sourceTree = "<group>"; };
 		90F767F8201917DE00951F9C /* Megi_Assignment1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Megi_Assignment1.cpp; sourceTree = "<group>"; };
 		90FDBCE52060A71B00CFDB44 /* Megi_Assignment4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Megi_Assignment4.cpp; sourceTree = "<group>"; };
 		90FF466A2027E5DF007ADF30 /* helixmod.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = helixmod.cp; path = ../../../Downloads/Code/helixmod.cp; sourceTree = "<group>"; };
@@ -97,24 +111,36 @@
 		90053B0A200FE64D0019E830 /* CIS425 */ = {
 			isa = PBXGroup;
 			children = (
-				90280B6D20745C24000F34E2 /* ballAndTorusPerspectivelyShadowed.cpp */,
+				9071238A20916E620033F194 /* fieldAndSkyonSphere.cp */,
+				906E286D20883A7B00B00F60 /* texturedTorus.cpp */,
+				90B3675E20852B2B00F092E0 /* bezierSurface.cpp */,
+				90B3675C2085288500F092E0 /* bezierCurveWithEvalCoord.cpp */,
+				90B3675A208524C800F092E0 /* bezierCurves.cpp */,
 				90280B6B20745C1A000F34E2 /* ballAndTorusPicking.cpp */,
 				905960A4206DD8BF0061A0B4 /* spotlight.cpp */,
 				905960A2206D9EF20061A0B4 /* sphereInBox1.cpp */,
 				9059609D206D9C230061A0B4 /* lightAndMaterial1.cpp */,
+				90AD92A6209945F200FB29C6 /* ballAndTorusPerspectivelyShadowed.cpp */,
+				90AD92A920994B6A00FB29C6 /* ballAndTorusPerspectivelyShadowed.cpp */,
 				9059609E206D9C230061A0B4 /* lightAndMaterial2.cpp */,
 				9043D0CC206C179F00D17BBA /* loadTextures.cpp */,
 				9043D0C7206C15B600D17BBA /* Textures */,
 				90CB477E206048AD00644D1A /* walkingAroundForClass.cp */,
 				900C52882044AB2300E3B15F /* clown3.cpp */,
+				90301FD820953421001FF94B /* fractals.cpp */,
+				90AD92A02099430000FB29C6 /* fieldAndSkyTexturesBlended.cpp */,
 				90416756203B51A90054E6E1 /* menus.cpp */,
 				902C64012038D9D000298193 /* clippingPlanes.cpp */,
 				902C63FD2038D46500298193 /* glutObjects.cpp */,
+				90AD92AF209964E300FB29C6 /* BoxAndCubesPickingAndDraggingFromTop.cp */,
 				902C63F82038BB5200298193 /* mouseMotion.cpp */,
+				90AD92A22099430800FB29C6 /* fieldAndSkyFogged.cpp */,
 				902C63F62038BB1F00298193 /* moveSphere.cpp */,
 				90BEEE872037C0E300E2486C /* fonts.cpp */,
+				90EA024D209AA6C4007BE6DD /* spaceTravel.cpp */,
 				9075C337203222A100F631FF /* windows.cpp */,
 				9075C3352032219800F631FF /* canvas.cpp */,
+				90986414209B0450006996AE /* sphereInGlassBox.cpp */,
 				90C07B2F202B89310082557B /* MJBBasicTransformations.cp */,
 				90FF466D2027FA3C007ADF30 /* circle.cpp */,
 				90FF466A2027E5DF007ADF30 /* helixmod.cp */,
@@ -123,14 +149,16 @@
 				902E1E93202519C500F7F816 /* cylinder.cpp */,
 				90628547201FB4F9007D214E /* circularAnnulusesMod.cp */,
 				90628544201FB454007D214E /* helix.cpp */,
-				90F767F6201915C600951F9C /* person.cpp */,
-				90AE2C6820167EAA00134077 /* squareV2.cpp */,
-				90053B1B200FF1EC0019E830 /* square copy.cpp */,
 				90F767F8201917DE00951F9C /* Megi_Assignment1.cpp */,
 				90C07B31202B89960082557B /* Megi_Assignment2.cpp */,
 				900C5286204494E700E3B15F /* Megi_Assignment3.cpp */,
 				9041EA8C20202531007DDAED /* floweringPlant.cpp */,
 				90FDBCE52060A71B00CFDB44 /* Megi_Assignment4.cpp */,
+				903D9540207E9ED7002DDBC7 /* Skateboard.cpp */,
+				9071238820916E0A0033F194 /* Skateboarding.cpp */,
+				90AD929E20992FCC00FB29C6 /* start.cpp */,
+				90AD9294209781FC00FB29C6 /* Space.cpp */,
+				90AD929B20979C3100FB29C6 /* Water.cpp */,
 			);
 			path = CIS425;
 			sourceTree = "<group>";
@@ -201,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90280B6F20745E21000F34E2 /* Megi_Assignment4.cpp in Sources */,
+				90986416209B0567006996AE /* Skateboarding.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
